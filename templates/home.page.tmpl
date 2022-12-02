@@ -1,0 +1,8 @@
+{{ template "base" . }}
+
+{{ define "content" }}
+    <h1>Home</h1>
+    <p>salut à tous je suis l'owner {{ index .StringData "owner" }}</p>
+
+    <button>SALUT</button>
+{{ end }}
